@@ -40,7 +40,7 @@ namespace TemporalGearSpawnNerf {
       if (!Util.IsDefaultSpawn(player)) {
         if (this.entity.World.Rand.NextDouble() < config.ChanceOfSpawnClear) {
           player.ClearSpawnPosition();
-          Util.SendChatMessage(player, "You have respawned at your spawn point, but the link fades. Your spawn point has been lost. You will need to use another Temporal Gear to to your spawn point again.");
+          Util.SendChatMessage(player, "You have respawned at your spawn point, but the link fades. Your spawn point has been lost. You will need to use another Temporal Gear to set your spawn point again.");
         }
         else {
           Util.SendChatMessage(player, "You have respawned at your spawn point, and the link remains strong. It is not necessary to use another Temporal Gear.");

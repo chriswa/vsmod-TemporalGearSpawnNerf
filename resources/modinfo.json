@@ -1,13 +1,11 @@
 {
-  "type": "Code",
+  "type": "code",
   "side": "Server",
-  "modid": "lostinthewild",
-  "name": "LostInTheWild",
-  "authors": [
-    "goxmeor"
-  ],
-  "description": "Prevents players from learning their coordinates using /waypoint or /land",
-  "version": "1.0.1",
+  "modid": "temporalgearspawnnerf",
+  "name": "TemporalGearSpawnNerf",
+  "authors": [ "goxmeor" ],
+  "description": "Temporal Gears can now be used to set a spawn point only once. After respawning, the player's spawn point is cleared.",
+  "version": "1.1.3",
   "dependency": {
     "game": ""
   }
